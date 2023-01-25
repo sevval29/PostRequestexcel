@@ -11,6 +11,7 @@ namespace PostRequest.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Data veri)
         {
+
             return Ok(veri);
         }
        
